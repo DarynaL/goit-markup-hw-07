@@ -1,10 +1,7 @@
 .team-title {
   margin-bottom: 50px;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
+  @include font(36px, 700, 1.17, 0.03em);
   text-align: center;
-  letter-spacing: 0.03em;
 }
 
 .team-section {
@@ -30,18 +27,13 @@
 }
 .team-subtitle {
   margin-bottom: 10px;
+  @include font(16px, 500, 1.19, 0.03em);
   text-align: center;
-  font-size: 16px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
 }
 .team-text {
   margin-bottom: 16px;
   text-align: center;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
+  @include font(16px, 400, 1.19, 0.03em);
   color: var(--secondary-color);
 }
 .social-list {

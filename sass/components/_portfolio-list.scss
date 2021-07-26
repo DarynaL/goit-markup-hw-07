@@ -45,10 +45,7 @@
   height: 100%;
   padding: 63px 24px;
   overflow: auto;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 1.55;
-  letter-spacing: 0.03em;
+  @include font(18px, 400, 1.55, 0.03em);
   color: #ffffff;
   background-color: rgba(33, 150, 243, 0.9);
   transform: translateY(100%);
@@ -62,16 +59,10 @@
 
 .portfolio-subtitle {
   margin-bottom: 4px;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
+  @include font(18px, 700, 2, 0.06em);
   color: var(--main-color);
 }
 .portfolio-text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.03em;
+  @include font(16px, 400, 1.87, 0.03em);
   color: var(--secondary-color);
 }

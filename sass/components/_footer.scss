@@ -22,21 +22,13 @@
 }
 .adress-text {
   margin-bottom: 9px;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 16px;
-  line-height: 1.7;
-  letter-spacing: 0.03em;
+  @include font(16px, 400, 1.7, 0.03em);
   color: #ffffff;
 }
 
 .footer-link {
   display: flex;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 16px;
-  line-height: 1.7;
-  letter-spacing: 0.03em;
+  @include font(16px, 400, 1.7, 0.03em);
   color: rgba(255, 255, 255, 0.6);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -56,10 +48,7 @@
 }
 .footer-social-subtitle {
   margin-bottom: 20px;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.15;
-  letter-spacing: 0.03em;
+  @include font(14px, 700, 1.15, 0.03em);
   color: #ffffff;
   text-transform: uppercase;
 }
@@ -97,10 +86,7 @@
 
 .footer-form-subtitle {
   margin-bottom: 20px;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.15;
-  letter-spacing: 0.03em;
+  @include font(14px, 700, 1.15, 0.03em);
   color: #ffffff;
   text-transform: uppercase;
 }
@@ -127,9 +113,7 @@
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: 0;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.875;
+  @include font(16px, 700, 1.875, 0.03em);
   color: #ffffff;
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);

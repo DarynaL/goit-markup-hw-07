@@ -9,10 +9,8 @@
 
 .filters-button {
   padding: 6px 22px;
-  font-size: 16px;
-  line-height: 1.85;
+  @include font(16px, 500, 1.85, 0.03em);
   text-align: center;
-  letter-spacing: 0.03em;
   background-color: #f5f4fa;
   border-radius: 4px;
   border: none;
